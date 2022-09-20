@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>CSD 340 Web Development with HTML and CSS</title>
