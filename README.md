@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>CSD 340 Web Development with HTML and CSS</title>
-    </head>
     <body>
         <header> 
             <h1>CSD 340 Web Development with HTML and CSS</h1>
