@@ -29,7 +29,7 @@ h1, h3 {
   }
 
   #navbar a {
-
+    text-decoration: none;
   }
 
   #navbar a:hover {
@@ -37,8 +37,29 @@ h1, h3 {
     color: rgba(104, 86, 132);
   }
 
+  .grid-item img{
+    background-color: rgba(187, 196, 204, 0.8);
+    border: 1px solid rgba(104, 86, 132);
+    width: 550px;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
 
+/*  Imported from bio-site-about.css  */
+  img {
+    width: 30%;
+    height: auto;
+  } /*  End imported img  */
   
+  img {
+    width: 400px;
+    height: auto;
+  }
+
+  /*
   .grid-item {
     background-color: rgba(187, 196, 204, 0.8);
     border: 1px solid rgba(104, 86, 132);
@@ -46,7 +67,7 @@ h1, h3 {
     padding: 5px;
     font-size: 30px;
     text-align: center;
-  }
+  }*/
 
   .grid-item img {
     max-width: 400px;
@@ -58,4 +79,139 @@ h1, h3 {
     font-family: 'Oswald';
     font-style: italic;
     background-color: rgba(115,159,217);
+  }
+
+  /*  Imported from bio-site-about.css  */
+  figure {
+    display: block;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: italic;
+    background-color: rgba(115,159,217);
+  }   /*  End imported figure*/
+
+  /*  Imported from bio-site-about.css  */
+  figcaption {
+    font-size: x-large ;
+  } /*  End imported figure*/
+
+  header {
+    width: 80%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40%;
+   }
+  
+  header h1 {
+  text-align: center;
+  font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+  
+  }
+  
+  header p {
+  font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+  text-align: justify;
+  }
+
+/* Source: https://designshack.net/articles/css/infinitephotobanner/ */
+
+/*photobanner*/
+
+.photobanner {
+  height: 233px;
+  width: 3550px;
+  margin-bottom: 80px;
+  }
+  
+  .photobanner img {
+    height: 310px;
+    border-radius: 5%;
+  }
+  
+  .photobanner img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  
+  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  }
+  
+  /*keyframe animations*/
+  .first {
+  -webkit-animation: bannermove 30s linear infinite;
+     -moz-animation: bannermove 30s linear infinite;
+      -ms-animation: bannermove 30s linear infinite;
+       -o-animation: bannermove 30s linear infinite;
+          animation: bannermove 30s linear infinite;
+  }
+  
+  @keyframes 'bannermove' {
+  0% {
+     margin-left: 0px;
+  }
+  100% {
+     margin-left: -2125px;
+  }
+  
+  }
+  
+  @-moz-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+  
+  }
+  
+  @-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+  
+  }
+  
+  @-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+  
+  }
+  
+  @-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+  
+  }
+  
+  .photobanner img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
   }
