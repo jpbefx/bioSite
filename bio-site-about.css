@@ -3,18 +3,45 @@ body {
 }
 
 h1, h3 {
+    width: 93%;
+    height: 75px;
     text-align: center;
+    font-size: xx-large;
     font-family: 'Oswald';
     font-style: italic;
     background-color: rgba(104,86,132);
 }
 
 figure {
+    display: block;
+    width: 90%;
+    height: auto;
     text-align: center;
     font-family: 'Oswald';
     font-style: italic;
     background-color: rgba(115,159,217);
   }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #2196F3;
+    border-bottom: 15px solid #bbc4cc;
+    display: block;
+    color: rgba(104, 86, 132);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+figure img {
+  width: 30%;
+  height: auto;
+}
+
+figcaption {
+  font-size: x-large ;
+}
 
  /*p [intro] {
     text-align: center;
