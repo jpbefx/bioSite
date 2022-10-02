@@ -16,6 +16,28 @@ h1, h3 {
     background-color: #2196F3;
     padding: 10px;
   }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #2196F3;
+    border-bottom: 15px solid #bbc4cc;
+    display: block;
+    color: rgba(104, 86, 132);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar a {
+
+  }
+
+  #navbar a:hover {
+    background-color: #2196F3;
+    color: rgba(104, 86, 132);
+  }
+
+
   
   .grid-item {
     background-color: rgba(187, 196, 204, 0.8);
