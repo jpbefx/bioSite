@@ -48,7 +48,7 @@ h1, h3 {
     text-align: center;
   }
 
-  img {
+  .grid-item img {
     max-width: 400px;
     max-height: 750px;
   }
