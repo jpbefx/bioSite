@@ -92,13 +92,30 @@ body {
     font-size: x-large ;
   } /*  End imported figure*/
 
-  h1, h3 {
+  h1, {
+    block-size: 75px;
+    font-weight: 700;
     text-align: center;
     font-family: 'Oswald';
     font-style: italic;
     background-color: rgba(104,86,132);
 }
 
+h3 {
+  block-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: italic;
+  background-color: rgba(104,86,132);
+}
+}
+
+div p {
+    font-family: 'Oswald';
+    font-size: x-large;
+
+}
   header {
     width: 90%;
     margin-bottom: 40px;
@@ -107,11 +124,24 @@ body {
    }
   
   header h1 {
-  text-align: center;
-  font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
-  
+    block-size: 75px;
+    text-align: center;
+    font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+    block-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Oswald';
+    background-color: rgba(104,86,132);
   }
   
+  main h1 {
+    block-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: italic;
+    background-color: rgba(104,86,132);
+  }
   header p {
   font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
   text-align: justify;
