@@ -15,51 +15,129 @@
         <meta name="robots" content="nofollow" />
     </head>
     <body>
+        <!--Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top  -->
+    <button onclick="topFunction()" id="myBtn" title="Back to top">Top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
         <div id="navbar">
-            <a href="index.html" >Home</a>
-            <a href="bio-site-about.html" >About</a>
-            <a href="bio-site-hobbies.html" >Hobbies</a>
+            <!--<a href="index.html" >| Home |</a>-->
+            <a href="bio-site-about.html" >| About |</a>
+            <a href="bio-site-hobbies.html" >| Hobbies |</a>
         </div>
         <main id="container">
-        <header>
-            <h1>The Most Interesting Man I Know:</h1>
-        </header>
-        <div id ="image-galary">
-            <div class = "grid-item">
-                <h3>David Long</h3>
-                <figure>
-                    <img src = "assets\IMAG0004.jpg" alt="David" />
-                    <br />
-                    <figcaption>My Brother</figcaption>
-                </figure>
+
+                <!--Source: https://designshack.net/articles/css/infinitephotobanner/-->
+            <div id="MyBanner">
+                <header>
+                 <h1>HOBBIES</h1>
+                 <p>Hover an image to increase</p>
+                </header>
+                <!-- Each image is 350px by 233px -->
+                <div class="photobanner">
+                    <img class="first" src="assets/IMG_5334.jpg" alt="1" />
+                    <img src="assets\645112440.jpg" alt="2" />
+                    <img src="assets\IMG_0028.jpg" alt="3" />
+                    <img src="assets\IMG_0029.jpg" alt="4" />
+                    <img src="assets\IMG_0653.jpg" alt="5" />
+                    <img src="assets\IMG_1865.jpg" alt="6" />
+                    <img src="assets\IMG_2718.jpg" alt="7" />
+                    <img src="assets\IMG_6880.jpg" alt="8" />
+                    <img src="assets\IMG_4230.jpg" alt="9" />
+                    <img src="assets\IMG_3910.jpg" alt="10" />
+                    <img src="assets\IMG_5334.jpg" alt="11" />
+                </div>
             </div>
-            <div class = "grid-item">
-                <h3>Julie Hayes</h3>
-                <figure>
-                    <img src= "assets\20160730_152610 (2).jpg" alt="Julie" />
-                    <figcaption>My Sisster-In-Law</figcaption>
-                </figure>
-            </div>
-            <div class = "grid-item">
-                <h3>Nicholas Long</h3>
-                <figure>
-                    <img src= "assets\IMAG0150.jpg" alt="Nick" />
-                    <figcaption>My Nephew</figcaption>
-                </figure>
-            </div>
-            <div class = "grid-item">
-                <h3>Teagan Long</h3>
-                <figure>
-                    <img src= "assets\20160730_154227.jpg" alt="Teagan" />
-                    <figcaption>My Niece</figcaption>
-                </figure>
-            </div>
-        </div>
+
+        <!--    <div id ="image-galary">    -->
+                <div class = "grid-item">
+                    <h3>David Long</h3>
+                    <article>
+                        <figure>
+                            <img src = "assets\DavLanding.jpg" alt="David">
+                            <aside>    
+                                <ol >
+                                    <li>I'm currently as a tow truck driver / former 
+                                        musician well as a father and entrepreneur.</li>
+                                    <li>My current work is in recovering accidents, recover 
+                                        wrecked vehicles, and tow tractor trailers. I'm also always actively looking to invest in new business 
+                                        ventures.</li>
+                                    <li>I collect custom vehicles like mini trucks. I also 
+                                        love to travel.
+                                        </li>
+                                        <br>
+                                    <li>Are there any clubs or sports in high school you believe helped develop important character traits for 
+                                        success? Yes & no it's kind of twofold. I wasn't part of any school related clubs or programs. I did a 
+                                        couple different television production classes, but I think just being in a band with my friends; enjoying 
+                                        music outside of high school or any structured programs, and the ability to freely interact with people 
+                                        of different walks of life built strong social skills quite a bit, also keeping a business sense through all the 
+                                        fun helped build my strongest character traits.</li>
+                                    <li>What are your top three favorite vehicles you have ever owned? oh God three favorite vehicles 89 
+                                        Honda CRX which is the first car I ever motor-swapped to fit the Fast and Furious persona of the time. 
+                                        2006 Silverado crew-cab fully customized into a mini-truck. 2004 W900 semi-tractor, This is the business
+                                        truck I bought when my daughter was born. My wife and I were over the road for the first three years of 
+                                        my daughter’s life. There are so many memories I cherish while we were all in it together.</li>
+                                    <li>What are your top three favorite vehicles you have ever wished to own? and R34 skyline, 69 Lincoln 
+                                        Continental 4 door, probably a 58 or 59 series 62 Cadillac.</li>
+                                    <li>What is your advice for future generations to succeed in your industry? Always keep your head on a 
+                                        swivel number one, also this industry is not for everybody it is a lifestyle based industry, so if you can't 
+                                        handle the lifestyle that goes with it it's not the industry for you. Always be willing to listen and observe. 
+                                        Don't take the little things for granted. You're going to see some things that you can't Unsee just 
+                                        remember that you're there to do a job.</li>
+                                    <li>What pitfalls and warning signs would you advise future generations to look for to stay on course to 
+                                        success, both I guess. Okay… Don’t be afraid to fail. Know your worth.</li>
+                                </ol>
+                            </aside>
+                            <br />
+                            <figcaption>My Brother</figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <div class = "grid-item">
+                    <h3>Julie Hayes</h3>
+                    <figure>
+                        <img src= "assets\20160730_152610 (2).jpg" alt="Julie" />
+                        <figcaption>My Sisster-In-Law</figcaption>
+                    </figure>
+                </div>
+                <div class = "grid-item">
+                    <h3>Nicholas Long</h3>
+                    <figure>
+                        <img src= "assets\IMAG0150.jpg" alt="Nick" />
+                        <figcaption>My Nephew</figcaption>
+                    </figure>
+                </div>
+                <div class = "grid-item">
+                    <h3>Teagan Long</h3>
+                    <figure>
+                        <img src= "assets\20160730_154227.jpg" alt="Teagan" />
+                        <figcaption>My Niece</figcaption>
+                    </figure>
+                </div>
+        <!--    </div>      -->
         </main>
         <footer>
-            <a href="index.html" >Home</a>
-            <a href="bio-site-about.html" >About</a>
-            <a href="bio-site-hobbies.html" >Hobbies</a>
+            <a href="index.html" >| Home |</a>
+            <a href="bio-site-about.html" >| About |</a>
+            <a href="bio-site-hobbies.html" >| Hobbies |</a>
         </footer>
     </body>
 </html>
